@@ -7,7 +7,7 @@ public class GameDTO {
 
     private long id;
     private String title;
-    private int year;
+    private Integer year;
     private String genre;
     private String platforms;
     private double score;
@@ -38,7 +38,7 @@ public class GameDTO {
         this.title = title;
     }
 
-    public int getYear() {
+    public Integer getYear() {
         return year;
     }
 

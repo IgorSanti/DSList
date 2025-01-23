@@ -13,7 +13,7 @@ public class Game {
     private long id;
     private String title;
     @Column(name = "game_year")
-    private int year;
+    private Integer year;
     private String genre;
     private String platforms;
     private double score;
@@ -53,7 +53,7 @@ public class Game {
         this.title = title;
     }
 
-    public int getYear() {
+    public Integer getYear() {
         return year;
     }
 
